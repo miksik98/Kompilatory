@@ -28,7 +28,7 @@ Dla rozpoznanych leksemów stworzony skaner powinien zwracać:
 
 Przykład.
 Dla następującego kodu:
-
+```
 A = zeros(5); # create 5x5 matrix filled with zeros <br>
 B = ones(7);  # create 7x7 matrix filled with ones <br>
 I = eye(10);  # create 10x10 matrix filled with ones on diagonal and zeros elsewhere <br>
@@ -36,7 +36,7 @@ D1 = A.+B' ;  # add element-wise A with transpose of B <br>
 D2 -= A.-B' ; # substract element-wise A with transpose of B <br>
 D3 \*= A.\*B' ; # multiply element-wise A with transpose of B <br>
 D4 /= A./B' ; # divide element-wise A with transpose of B <br>
-
+```
 Analizator leksykalny powinien zwracać następującą sekwencję i wypisywać ją na standardowym wyjściu: <br>
 
 (1): ID(A) <br>
