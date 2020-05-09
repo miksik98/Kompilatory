@@ -1,4 +1,4 @@
-## Laboratorium 2
+## Laboratorium 3
 Zadanie polega na stworzeniu i wypisaniu abstrakcyjnego drzewa składni 
 (ang. abstract syntax tree, AST). Drzewo składni powinno uwzględniać 
 w swoich węzłach następujące konstrukcje:

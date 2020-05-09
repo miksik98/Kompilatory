@@ -148,9 +148,3 @@ class TreePrinter:
     def printTree(self, indent=0):
         print('| ' * indent + 'ELSE')
         self.body.printTree(indent+1)
-
-    # @addToClass(AST.LoopInstructionStatement)
-    # def printTree(self, indent=0):
-    #     for statement in self.statements:
-    #         statement.printTree(indent+1)
-
